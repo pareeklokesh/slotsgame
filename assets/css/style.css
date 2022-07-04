@@ -203,3 +203,6 @@ justify-content: center;
 .social-icon ul li:first-child a img {
   width: 18px;
 }
+.footer ul li a:hover {
+  color: #2fa1b4;
+}
