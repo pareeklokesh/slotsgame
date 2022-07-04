@@ -93,7 +93,7 @@ font-weight: 300;
   width: auto !important;
   float: left;
 }
-.icon-slider .owl-nav button {
+.icon-slider .owl-nav button, .testionial .owl-nav.disabled button {
   background: #252525 !important;
   width: 40px;
   height: 40px;
@@ -101,7 +101,7 @@ font-weight: 300;
   position: relative;
   transition: all .4s linear;
 }
-.icon-slider .owl-nav button span {
+.icon-slider .owl-nav button span, .testionial .owl-nav.disabled button span {
   color: #fff !important;
   font-size: 30px;
   position: absolute;
@@ -121,7 +121,7 @@ justify-content: center;
 .icon-slider .owl-nav button.owl-prev {
   margin-right: 15px;
 }
-.icon-slider .owl-nav button:hover {
+.icon-slider .owl-nav button:hover, .testionial .owl-nav.disabled button:hover {
   background: #2fa1b4 !important;
 }
 .started {
@@ -205,4 +205,58 @@ justify-content: center;
 }
 .footer ul li a:hover {
   color: #2fa1b4;
+}
+.testionial .testionial-user {
+  width: 100px !important;
+  margin: 0px auto;
+  display: block;
+  margin-bottom: 15px;
+}
+.testionial {
+  background: url('../img/ludo.jpg') no-repeat;
+  background-position: left top;
+background-size: cover;
+}
+.testionial * {
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+}
+.testionial p {
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+.testionial span {
+  display: block;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+.testionial strong {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.testionial .owl-nav.disabled {
+  display: block !important;
+}
+.testionial .owl-nav.disabled {
+  position: absolute;
+  top: 47%;
+  width: 100%;
+}
+.testionial .owl-nav.disabled .owl-prev {
+  position: relative;
+  left: -80px;
+}
+.testionial .owl-nav.disabled button.owl-next {
+  float: right;
+  right: -80px;
+}
+.testionial .owl-nav.disabled button {
+  background: #fff !important;
+}
+.testionial .owl-nav.disabled button span {
+  color: #252525 !important;
+}
+.testionial .section-title {
+  text-transform: capitalize;
+  letter-spacing: 1px;
 }
