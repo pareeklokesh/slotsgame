@@ -162,7 +162,7 @@ justify-content: center;
   letter-spacing: 1px;
   margin: 15px 0;
 }
-.ern p {
+.ern p, .contentblack {
   color: #252525;
   font-weight: 300;
   letter-spacing: 1px;
@@ -216,6 +216,7 @@ justify-content: center;
   background: url('../img/ludo.jpg') no-repeat;
   background-position: left top;
 background-size: cover;
+background-attachment: fixed;
 }
 .testionial * {
   color: #fff;
@@ -259,4 +260,73 @@ background-size: cover;
 .testionial .section-title {
   text-transform: capitalize;
   letter-spacing: 1px;
+}
+
+
+@media (max-width: 991px) {
+  .header-top .navbar-toggler  {
+  background: transparent;
+  padding: 0;
+  outline: none !important;
+box-shadow: none;
+}
+.header-top .row.justify-content-center {
+  justify-content: end !important;
+}
+.header-top .w-auto, .header-top .container-fluid {
+  padding: 0px;
+}
+.header-top .container-fluid, .header-top .navbar, .header-top  {
+  position: static;
+}
+.header-top {
+  position: relative;
+}
+.header-top #navbarNavAltMarkup {
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  left: 0;
+  background: #252525;
+  padding: 0 15px;
+  border-top: 1px solid #ffb901;
+  padding-bottom: 16px;
+}
+.header-top #navbarNavAltMarkup .navbar-nav a {
+  padding-bottom: 0;
+}
+
+}
+
+@media (max-width: 767px) {
+  .testionial .owl-nav.disabled, .icon-slider .owl-nav.disabled, .icon-slider .owl-nav {
+    display: none !important;
+  }
+  .started .w-100.text-center {
+  padding:30px 15px;
+  
+}
+.ern-full .row {
+  margin-top: 0 !important;
+}
+.ern {
+  margin-bottom: 25px;
+}
+.started2 .col-md-6:first-child {
+  order: 2;
+}
+.startedFull .row, .startedFull {
+  margin: 0;
+  padding: 0;
+}
+.startedFull img {
+  width: 100%;
+}
+.banner .col-md-7 {
+  padding-left: 15px !important;
+}
+.banner p {
+  width: 100%;
+}
+
 }
