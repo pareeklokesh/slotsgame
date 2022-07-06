@@ -290,6 +290,14 @@ background-attachment: fixed;
 .footer ul li a:hover::after {
 width: 100%;
 }
+#navbarNavAltMarkup ul li a {
+  transition: all .4s linear;
+  text-transform: capitalize;
+}
+#navbarNavAltMarkup ul li a:hover {
+  color: #2fa1b4;
+}
+
 
 
 @media (max-width: 991px) {
