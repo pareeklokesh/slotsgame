@@ -40,7 +40,7 @@ background-size: auto;
 .bannertitle {
   color: #fff;
   text-transform: uppercase;
-  font-size: 55px;
+  font-size: 38px;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
 }
@@ -297,6 +297,25 @@ width: 100%;
 #navbarNavAltMarkup ul li a:hover {
   color: #2fa1b4;
 }
+.icon-slider ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.icon-slider ul li {
+  padding: 0 15px;
+  width: 20%;
+  margin-bottom: 20px;
+}
+.icon-slider ul li img {
+  width: 100%;
+}
+.icon-slider ul {
+  background: #252525;
+padding: 15px 0;
+}
 
 
 
@@ -336,6 +355,9 @@ box-shadow: none;
 }
 
 @media (max-width: 767px) {
+  .icon-slider ul li {
+  width: 50%;
+}
   .testionial .owl-nav.disabled, .icon-slider .owl-nav.disabled, .icon-slider .owl-nav {
     display: none !important;
   }
