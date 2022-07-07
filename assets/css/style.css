@@ -316,6 +316,9 @@ width: 100%;
   background: #252525;
 padding: 15px 0;
 }
+.ern {
+  height: 100%;
+}
 
 
 
@@ -386,6 +389,9 @@ box-shadow: none;
 }
 .banner p {
   width: 100%;
+}
+.ern {
+  height: auto;
 }
 
 }
