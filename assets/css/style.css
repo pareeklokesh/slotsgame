@@ -217,7 +217,7 @@ justify-content: center;
   margin-bottom: 15px;
 }
 .testionial {
-  background: url('../img/ludo.jpg') no-repeat;
+  background: url('../img/ludo.png') no-repeat;
   background-position: left top;
 background-size: cover;
 background-attachment: fixed;
@@ -315,6 +315,7 @@ width: 100%;
 .icon-slider ul {
   background: #252525;
 padding: 15px 0;
+border-radius: 8px;
 }
 .ern {
   height: 100%;
