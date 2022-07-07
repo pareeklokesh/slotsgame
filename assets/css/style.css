@@ -393,6 +393,23 @@ border-radius: 8px;
 .contactform form {
   width: 70%;
 }
+.aboutbanner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.aboutus-content .contentblack {
+  padding: 0px 50px;
+}
+.aboutus-content .col-md-6 {
+  padding: 0;
+}
 
 
 
@@ -466,6 +483,13 @@ box-shadow: none;
 }
 .ern {
   height: auto;
+}
+.mapifram {
+  margin-top: 30px;
+  min-height: 400px;
+}
+.contactform form {
+  width: 100%;
 }
 
 }
