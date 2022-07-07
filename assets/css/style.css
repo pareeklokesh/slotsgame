@@ -32,11 +32,13 @@ background-size: auto;
   height: 90px;
 }
 .banner {
-  background-color: #252525;
+  background: url('../img/banner.png') no-repeat;
+  background-position: center;
+background-size: cover;
 }
-.header {
+/*.header {
   border-bottom: 1px dashed #acacac;
-}
+}*/
 .bannertitle {
   color: #fff;
   text-transform: uppercase;
@@ -65,9 +67,14 @@ background-size: auto;
   color: #fff;
 margin-bottom: 30px;
 font-family: 'Roboto', sans-serif;
-width: 70%;
+
 letter-spacing: 1px;
 font-weight: 300;
+}
+.banner p {
+  margin: 0px auto;
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
 .banner {
   padding: 80px 15px;
