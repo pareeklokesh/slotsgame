@@ -319,6 +319,28 @@ padding: 15px 0;
 .ern {
   height: 100%;
 }
+.privacy-list li {
+  color: #252525;
+  font-weight: 300;
+  letter-spacing: 1px;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 10px;
+}
+.privacy-list {
+  padding-left: 15px;
+}
+.privacy-heading {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  text-transform: capitalize;
+  color: #252525;
+  font-size: 22px;
+  letter-spacing: 1px;
+  margin-bottom: 18px;
+}
+.privacy-content {
+  padding: 80px 0;
+}
 
 
 
