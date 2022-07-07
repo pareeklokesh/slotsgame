@@ -392,6 +392,7 @@ border-radius: 8px;
 }
 .contactform form {
   width: 70%;
+  float: right;
 }
 .aboutbanner {
   position: absolute;
@@ -409,6 +410,55 @@ border-radius: 8px;
 }
 .aboutus-content .col-md-6 {
   padding: 0;
+}
+.contact-details {
+  list-style: none;
+  padding: 0;
+  margin-top: 30px;
+}
+.contact-details li {
+  position: relative;
+  display: flex;
+align-items: center;
+margin-bottom: 25px;
+}
+.contact-details li, .contact-details li a {
+  color: #252525;
+  font-weight: 300;
+  letter-spacing: 1px;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: navajowhite;
+}
+.contact-details li i {
+  position: relative;
+background-color: #f9f501;
+border-radius: 50%;
+width: 40px;
+height: 40px;
+display: inline-block;
+margin-right: 10px;
+}
+.contact-details li i::before {
+  content: "";
+display: block;
+width: 16px;
+height: 20px;
+background: url('../img/icon.png') no-repeat;
+background-position: 0px 0;
+position: absolute;
+left: 13px;
+top: 9px;
+  
+}
+.contact-details li:nth-child(2) i::before {
+background-position: -21px 0;
+width: 28px;
+left: 6px;
+}
+.contact-details li:nth-child(3) i::before {
+background-position: -58px 0;
+left: 12px;
+top: 10px;
 }
 
 
