@@ -5,8 +5,8 @@ body {
   background: #252525;
 }
 .header-top ul li a {
-color: #fff;
-padding: 16px 10px;
+color: #252525;
+padding: 12px 10px;
 }
 .header-top .navbar.navbar-expand-lg {
   padding: 0;
@@ -29,10 +29,41 @@ background-size: auto;
   padding: 15px 0 15px 0;
 }
 .header-top {
-  border-bottom: 1px dashed #a5a5a5;
+z-index: 9;
+position: relative;
+background: #ffb807;
 }
 .logo img {
   height: 90px;
+}
+.header-top ul li a img {
+  width: 16px;
+  display: inline-block;
+  margin-right: 10px;
+}
+.header-top ul li a {
+  display: flex;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  letter-spacing: 1px;
+  padding: 10px !important;
+  font-weight: 300;
+}
+#navbarNavAltMarkup li:last-child a {
+  background: #fff;
+  color: #252525;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 1px;
+  padding: 10px 20px !important;
+  margin-left: 10px;
+  text-align: center;
+}
+#navbarNavAltMarkup li a:hover{
+  transition: all .4s linear;
+}
+#navbarNavAltMarkup li a:hover {
+  color: #252525 !important;
 }
 .banner {
   background: url('../img/banner.png') no-repeat;
@@ -490,13 +521,24 @@ box-shadow: none;
   top: 100%;
   width: 100%;
   left: 0;
-  background: #252525;
+  background: #ffb807;
   padding: 0 15px;
   border-top: 1px solid #ffb901;
   padding-bottom: 16px;
 }
 .header-top #navbarNavAltMarkup .navbar-nav a {
   padding-bottom: 0;
+}
+#navbarNavAltMarkup li:last-child a {
+  margin-left: 0;
+  justify-content: center;
+  border-radius: 25px;
+}
+.navbar-toggler.collapsed .navbar-toggler-icon {
+  display: flex !important;
+  align-items: center !important;
+  position: relative;
+  top: 2px !important;
 }
 
 }
